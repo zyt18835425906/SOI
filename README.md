@@ -1,8 +1,8 @@
 3D-ASV Algorithm & SOI Index Establishment and Construction Paradigm
 The projects primarily come from the>
-[Spatial occupancy index of tree crown: can provide new perspectives for quantifying structural complexity of individual tree crowns]
-#############################################################################
-# Key processes involved
+>[Spatial occupancy index of tree crown: can provide new perspectives
+>for quantifying structural complexity of individual tree crowns]
+## Key processes involved
 <div align="center">
 <img width="483" height="678" alt="F2" src="https://github.com/user-attachments/assets/be953759-7812-409b-8ca3-a88e5d833d45" />
 </div>
@@ -19,7 +19,7 @@ matplotlib.pyplot  scipy.spatial ConvexHull threading laspy time traceback scipy
 
 ## Documentation
 <div align="center">
-<img width="1910" height="1355" alt="F3" src="https://github.com/user-attachments/assets/c4ca9de7-5e7e-4804-bdc4-4402114dba14" />
+<img width="955" height="678" alt="F3" src="https://github.com/user-attachments/assets/c4ca9de7-5e7e-4804-bdc4-4402114dba14" />
 </div>
 
 ## Tools and Algorithms
@@ -38,26 +38,28 @@ matplotlib.pyplot  scipy.spatial ConvexHull threading laspy time traceback scipy
 Combined the crown spatial distribution parameters (i.e., normalized point cloud density and intensity of crown, respectively) with the crown spatial structural complexity parameters (i.e., crown entropy, crown edge structure complexity) to derive the SOI index with mathematical concepts and physical mechanisms based on the gainful-adding theory.
 
 ## Documentation
-<img width="1098" height="1351" alt="F6" src="https://github.com/user-attachments/assets/47d92590-ce71-4bb3-81b3-9ada823c0ea0" />
+<img width="549" height="676" alt="F6" src="https://github.com/user-attachments/assets/47d92590-ce71-4bb3-81b3-9ada823c0ea0" />
 
 ## Tools and Algorithms
 
 ---Normalized point cloud density---
-The calculation formula for the normalized point cloud density is as follows:
+
+-The calculation formula for the normalized point cloud density is as follows:
 
 <img width="352" height="111" alt="F7" src="https://github.com/user-attachments/assets/4f50f8c7-550f-4497-86cf-a3536a2bf2a7" />
 
 ---Normalized point cloud intensity---
 
-The formula of the revised normalized point cloud intensity is as follows:
+-The formula of the revised normalized point cloud intensity is as follows:
 
 <img width="299" height="111" alt="F8" src="https://github.com/user-attachments/assets/0a25edb4-eeb9-4a6f-bead-5c2cd0276810" />
 
 ---Canopy Entropy & Crown Entropy---
+
 -The specific principle derivation of canopy entropy can be found in Liu et al.2022. 
 Liu X.Q. 2022. A novel entropy-based method to quantify forest canopy structural complexity from multiplatform lidar point clouds. Remote Sensing of Environment. 282, 113280.
 
-The formula for calculating the canopy entropy part in SOI is:
+-The formula for calculating the canopy entropy part in SOI is:
 
 <img width="1081" height="126" alt="F9" src="https://github.com/user-attachments/assets/bde97626-ee74-4e2d-bb4b-bbbca545b4e2" />
 
@@ -71,12 +73,12 @@ The formula for calculating the canopy entropy part in SOI is:
 
 ## Building the SOI Index Series
 
-The four combined formula for calculating the spatial occupancy index of the tree crowns based on the crown volume is as follows:
+-The four combined formula for calculating the spatial occupancy index of the tree crowns based on the crown volume is as follows:
 
 <img width="571" height="309" alt="F10" src="https://github.com/user-attachments/assets/c936863b-0258-4540-be83-ac2231a18f1a" />
 
 # Known Issues
-This software is currently in development.
+-This software is currently in development.
 
 
 
